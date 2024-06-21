@@ -44,7 +44,7 @@ class SkillsScreen extends StatelessWidget {
                   ),
                   SizedBox(
                     width: 150, // Fixed width for the card
-                    child: SkillsComp(Colors.orange, BoxIcons.bxl_java, 'JAVA'),
+                    child: SkillsComp(Colors.orange, BoxIcons.bxl_java, 'Java'),
                   ),
                   SizedBox(
                     width: 150, // Fixed width for the card
@@ -64,11 +64,46 @@ class SkillsScreen extends StatelessWidget {
                   ),
                   SizedBox(
                     width: 150, // Fixed width for the card
-                    child: SkillsComp(Colors.brown, Icons.code, 'DART'),
+                    child: SkillsComp(Colors.brown, Icons.code, 'Dart'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.yellow, BoxIcons.bxl_javascript, 'JavaScript'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.purple, BoxIcons.bxl_react, 'React.js'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.lightGreen, BoxIcons.bxl_nodejs, 'Node.js'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.deepPurple, BoxIcons.bxl_mongodb, 'MongoDB'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.red, BoxIcons.bxl_html5, 'HTML'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.blueAccent, BoxIcons.bxl_css3, 'CSS'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.amber, BoxIcons.bxl_firebase, 'Firebase'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.lightBlue, BoxIcons.bxl_bootstrap, 'Bootstrap'),
+                  ),
+                  SizedBox(
+                    width: 150, // Fixed width for the card
+                    child: SkillsComp(Colors.cyan, BoxIcons.bxl_react, 'React'),
                   ),
                 ],
               ),
-
             ],
           ),
         ),

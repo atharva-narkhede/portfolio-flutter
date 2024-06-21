@@ -22,11 +22,27 @@ class EducationScreen extends StatelessWidget {
                 SizedBox(
                   height: 10.0,
                 ),
-                EducationComp('2021-2025', 'SRM University AP', 'BTECH CSE','CGPA- 8.31'),
-                EducationComp('2020-2021', 'Suryadatta Public School',
-                    'Class 12 Science PCM','85.5%'),
-                EducationComp('2018-2019', 'Sinhgad Spring Dale Public School',
-                    'Class 10','78.6%'),
+                EducationComp(
+                  year: '2021-2025',
+                  name: 'SRM University AP',
+                  spec: 'BTECH CSE',
+                  grade: 'CGPA- 8.26',
+                  color: Colors.brown.shade50, // User-selected color
+                ),
+                EducationComp(
+                  year: '2020-2021',
+                  name: 'Suryadatta Public School',
+                  spec: 'Class 12 Science PCM',
+                  grade: '85.5%',
+                  color: Colors.green, // User-selected color
+                ),
+                EducationComp(
+                  year: '2018-2019',
+                  name: 'Sinhgad Spring Dale Public School',
+                  spec: 'Class 10',
+                  grade: '78.6%',
+                  color: Colors.yellow.shade300, // User-selected color
+                ),
               ],
             ),
           ),

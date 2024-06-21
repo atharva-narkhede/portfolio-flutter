@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 80,
-            backgroundImage: AssetImage('images/Atharva.jpeg'),
+            backgroundImage: AssetImage('images/Atharvan.png'),
           ),
           SizedBox(height: 16.0),
           Text(

@@ -3,17 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
 class EducationComp extends StatelessWidget {
-  EducationComp(this.year, this.name, this.spec,this.grade);
+  final String name;
+  final String year;
+  final String spec;
+  final String grade;
+  final Color color;
 
-  String name;
-  String year;
-  String spec;
-  String grade;
+  EducationComp({required this.year, required this.name, required this.spec, required this.grade, required this.color});
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.green,
+      color: color,
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(
@@ -25,16 +26,14 @@ class EducationComp extends StatelessWidget {
               children: [
                 Text(
                   year,
-                  style: TextStyle(color:Colors.black,fontFamily: 'Poppins', fontSize: 20.0,fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontFamily: 'Poppins', fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
                 Text(
                   grade,
-                  style: TextStyle(color:Colors.black,fontFamily: 'Poppins', fontSize: 20.0,fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontFamily: 'Poppins', fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
-
               ],
             ),
-
             SizedBox(
               height: 5.0,
             ),

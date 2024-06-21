@@ -22,6 +22,13 @@ class ProjectsScreen extends StatelessWidget {
                 height: 10.0,
               ),
               ProjectList(
+                  BoxIcons.bxl_react,
+                  'E-commerce Site',
+                  'Developed a fully functional E-commerce site using React.js for the front-end and Node.js with Express.js for the back-end. Implemented features such as user authentication, viewing products, and managing the cart. Created a custom API server and deployed the project on Render.com and Firebase. Technologies used: React.js, Node.js, Express.js, MongoDB, Firebase, Render.com.',
+                  Colors.lightBlue,
+                  'https://github.com/atharva-narkhede/E-CommerceSite_ReactJS'
+              ),
+              ProjectList(
                   OctIcons.database,
                   'Market Basket Analysis for Amazon Product Recommendation',
                   'Conducted Market Basket Analysis (MBA) on Amazon product dataset to enhance recommendations. Identified top-selling products and top products in each category using review count. Implemented association rule mining for personalized recommendations. Evaluated effectiveness through metrics.',
